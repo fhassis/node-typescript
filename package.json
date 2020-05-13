@@ -1,0 +1,19 @@
+{
+  "name": "node-typescript-template",
+  "version": "1.0.0",
+  "description": "Basic template for node applications in TypeScript.",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "nodemon src/main.ts",
+    "build": "tsc -p ."
+  },
+  "author": "fhassis",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  }
+}
